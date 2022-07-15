@@ -36,13 +36,14 @@
     function calc() {
         const input = Number(document.getElementById("input").value)
         const output = input + 42.857143/100 *input
-        document.getElementById('labelid').innerHTML = Math.floor(0.5 + output) + " R$"
+        document.getElementById('labelid').innerHTML = "Sale Price for "+input+"R$: " + Math.floor(0.5 + output) + " R$"
     }
     function calcnegative() {
         const input = Number(document.getElementById("input").value)
         const output = input - 30/100 *input
-        document.getElementById('labelid').innerHTML = Math.floor(0.5 + output) + " R$"
+        document.getElementById('labelid').innerHTML = "Earnings: " + Math.floor(0.5 + output) + " R$"
     }
+</script>
 </script>
     </header>
     <section class="showcase">
